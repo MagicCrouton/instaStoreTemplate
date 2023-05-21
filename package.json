@@ -1,0 +1,11 @@
+{
+  "name": "instastoretemplate",
+  "version": "1.0.0",
+  "description": "Template for instagram one pager stores using next.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
