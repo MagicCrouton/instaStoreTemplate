@@ -3,14 +3,13 @@ import { categories, collections} from './tempdata/tempdata'
 export default function HomePage() {
 
   return (
-    <div className="bg-white"> 
-
+    <div className='bg-llamaPattern bg-200%'>
       {/* Hero section */}
       <div className="relative bg-gray-900">
         {/* Decorative image and overlay */}
         <div aria-hidden="true" className="absolute inset-0 overflow-hidden">
           <img
-            src="https://tailwindui.com/img/ecommerce-images/home-page-01-hero-full-width.jpg"
+            src="https://drive.google.com/uc?id=1DFhiyuFfluCHgx61cJ5F0llW9rQamC2u"
             alt=""
             className="h-full w-full object-cover object-center"
           />

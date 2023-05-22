@@ -8,10 +8,23 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
+        'llamaPattern': "url('/llamaBackground.png')",
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      backgroundSize: {
+        'auto': 'auto',
+        'cover': 'cover',
+        'contain': 'contain',
+        '50%': '50%',
+        '75%': '75%',
+        '80%': '80%',
+        '100%': '100%',
+        '150%': '150%',
+        '200%': '200%',
+        '16': '4rem',
+      }
     },
   },
   plugins: [

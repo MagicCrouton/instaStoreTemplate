@@ -190,20 +190,20 @@ const navigation = {
     {
       name: 'New Arrivals',
       href: '#',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-01-category-01.jpg',
+      imageSrc: 'https://drive.google.com/uc?id=1Lw7gWJAI2dMdRgB-IwyQY_MCnptiEqtw',
     },
     {
-      name: 'Productivity',
+      name: 'Hats',
       href: '#',
       imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-01-category-02.jpg',
     },
     {
-      name: 'Workspace',
+      name: 'Blankets',
       href: '#',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-01-category-04.jpg',
+      imageSrc: 'https://drive.google.com/uc?id=12HX4N7qB3NDDfVjiAN04Q7Wc25U_l18W',
     },
     {
-      name: 'Accessories',
+      name: 'Ponchos',
       href: '#',
       imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-01-category-05.jpg',
     },
