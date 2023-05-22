@@ -4,7 +4,7 @@ import { Fragment, useState } from 'react'
 import { Dialog, Popover, Tab, Transition } from '@headlessui/react'
 import { Bars3Icon, MagnifyingGlassIcon, ShoppingBagIcon, UserIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
-
+import llamaLogo from './BohoLogo'
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -14,7 +14,7 @@ export default function Header({navigation, currencies}) {
   const [open, setOpen] = useState(false)
 
   return (
-    <div className="bg-#3f3f46">
+    <div className="bg-white">
       {/* Mobile menu */}
       <Transition.Root show={open} as={Fragment}>
         <Dialog as="div" className="relative z-40 lg:hidden" onClose={setOpen}>
@@ -169,7 +169,6 @@ export default function Header({navigation, currencies}) {
           </div>
         </Dialog>
       </Transition.Root>
-
       {/* end mobile menu */}
 
       <header className="relative bg-white">
@@ -314,10 +313,10 @@ export default function Header({navigation, currencies}) {
 
               {/* Logo */}
               <a href="/" className="flex">
-                <span className="sr-only">BoloLama</span>
+                <span className="sr-only">Boho-Lama</span>
                 <img
-                  className="h-8 w-auto"
-                  src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                  className="h-11 w-auto"
+                  src="https://drive.google.com/uc?id=1aEga1U9dE8gwXMlDxci-vIl3UGSj1OZ_"
                   alt=""
                 />
               </a>
@@ -353,7 +352,7 @@ export default function Header({navigation, currencies}) {
                 <form action="" className="relative mx-auto w-max">
                     <input type="search" className="peer cursor-pointer relative z-10 h-12 w-12 rounded-full border bg-transparent pl-12 outline-none focus:w-full focus:cursor-text focus:border-#111827 focus:pl-16 focus:pr-4" />
                       <svg xmlns="http://www.w3.org/2000/svg" className="absolute inset-y-0 my-auto h-8 w-12 border-r border-transparent stroke-gray-500 px-3.5 peer-focus:border-#111827 peer-focus:stroke-#111827" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-                      <path strokeLineCap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                       </svg>
       </form>
                 </a>

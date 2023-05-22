@@ -3,7 +3,8 @@ import React from "react"
 
 export default function Footer({footerNavigation}) {
 
-    <footer aria-labelledby="footer-heading" className="bg-gray-900">
+return(
+<footer aria-labelledby="footer-heading" className="bg-gray-900">
 <h2 id="footer-heading" className="sr-only">
   Footer
 </h2>
@@ -94,6 +95,6 @@ export default function Footer({footerNavigation}) {
   </div>
 </div>
 </footer>
-
+)
 }
 
